@@ -1,0 +1,7 @@
+<div class="resource-list">
+    <ul>
+        <li *ngFor="let resource of resources" (click)="viewDetail(resource.id)">
+            {{ resource.name }}
+        </li>
+    </ul>
+</div>
